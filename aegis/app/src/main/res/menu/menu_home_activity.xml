@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_my_favorites"
+        android:orderInCategory="100"
+        android:title="@string/title_activity_my_favorites"
+        app:showAsAction="ifRoom|withText"
+        android:onClick="menuItem_OnClick"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/title_activity_preference"
+        app:showAsAction="ifRoom|withText"
+        android:onClick="menuItem_OnClick"/>
+    <item
+        android:id="@+id/action_crime_data_download"
+        android:orderInCategory="100"
+        android:title="@string/title_menu_crime_data_download"
+        app:showAsAction="ifRoom|withText"
+        android:onClick="menuItem_OnClick"/>
+</menu>

@@ -1,0 +1,15 @@
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- customized color theme for Aegis -->
+    <color name="black_overlay">#66000000</color>
+    <color name="white_overlay">#66FFFFFF</color>
+    <color name="input_font_color">#000000</color>
+    <color name="google_map_color_blue">#05b1fb</color>
+
+    <color name="safe_green">#FF00FF00</color>
+    <color name="risky_yellow">#FFFFFF00</color>
+    <color name="danger_red">#FFFF0000</color>
+    <color name="avoid_dark_red">#7F0000</color>
+</resources>

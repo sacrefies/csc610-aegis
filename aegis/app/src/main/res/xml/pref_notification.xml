@@ -1,0 +1,64 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">1
+    <!-- Edit Text Preferences for setting warning level values -->
+    <Preference
+        android:background="@color/safe_green"
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="example_safe"
+        android:maxLines="0"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_safe" />
+
+    <Preference
+        android:background="@color/risky_yellow"
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="example_risky"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_risky" />
+
+    <Preference
+        android:background="@color/danger_red"
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="example_danger"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_danger" />
+
+    <Preference
+        android:background="@color/avoid_dark_red"
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="example_avoid"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_avoid" />
+
+    <Preference
+        android:background="@color/avoid_dark_red"
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="example_avoid"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_extreme" />
+
+    <Preference
+        android:background="@color/avoid_dark_red"
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="example_avoid"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_never" />
+    <!-- End of value customization -->
+
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="crime_api_base_url">https://data.phila.gov/resource/sspu-uyfa.json</string>
+    <string name="crime_data_query_key_where">$where</string>
+    <string name="crime_data_query_key_full">$query</string>
+    <string name="crime_data_year_look_back">10</string>
+    <string name="crime_data_week_look_back">4</string>
+</resources>

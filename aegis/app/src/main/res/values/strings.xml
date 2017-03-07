@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Aegis</string>
+    <string name="title_activity_home">Aegis</string>
+    <string name="title_activity_preference">Settings</string>
+    <string name="title_activity_my_favorites">Favorites</string>
+    <string name="title_menu_crime_data_download">Download Crime Data</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <string name="pref_header_general">Crime Data Sources</string>
+    <string name="pref_title_manual_info">User Manual</string>
+
+    <string name="pref_title_social_recommendations">Enable social
+        recommendations
+    </string>
+    <string name="pref_description_social_recommendations">Recommendations for
+        people to contact based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_display_safe">Safe Level 1 Range = Green</string>
+
+    <string name="pref_title_display_risky">At Risk Level 2 Range = Gray</string>
+
+    <string name="pref_title_display_danger">In Danger Level 3 Range = Yellow</string>
+
+    <string name="pref_title_display_extreme">Extreme Danger Level 4 Range = Orange</string>
+
+    <string name="pref_title_display_avoid">Avoid This Area Level 5 Range = Red</string>
+
+    <string name="pref_title_display_never">Avoid At All Costs = Dark Red</string>
+
+    <string name="pref_title_display_crimes">Display Crimes</string>
+    <string-array name="pref_example_list_titles">
+        <item>Criminal Homicide</item>
+        <item>Forcible Rape</item>
+        <item>Robbery</item>
+        <item>Aggrevated Assault</item>
+        <item>Burglary</item>
+        <item>Larceny Theft</item>
+        <item>Motor Vehicle Theft</item>
+        <item>Arson</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="pref_example_list_values"> <!-- UCR Codes -->
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>900</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_display_crimes_dates">Crime Date Range</string>
+    <string-array name="pref_example_list_titles_dates">
+        <item>2 Years</item>
+        <item>3 Years</item>
+        <item>4 Years</item>
+        <item>5 Years</item>
+        <item>6 Years</item>
+        <item>7 Years</item>
+        <item>8 Years</item>
+        <item>9 Years</item>
+        <item>10 Years</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="pref_example_list_values_dates"> <!-- UCR Codes -->
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="empty_array"/>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Crime Data Sync Frequency</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Warning Levels</string>
+
+    <string name="pref_title_new_message_notifications">New message
+        notifications
+    </string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="pref_title_levels">Set Warning Levels</string>
+
+    <!-- Crime Radius Settings -->
+    <string name ="pref_header_radius">Crime Data Radius</string>
+    <string name="pref_title_radius">Radius Requested</string>
+    <string-array name="pref_radius_titles">
+        <item>200 Meters</item>
+        <item>400 Meters</item>
+        <item>600 Meters</item>
+        <item>800 Meters</item>
+        <item>1000 Meters</item>
+        <item>No radius</item>
+    </string-array>
+    <string-array name="pref_radius_values">
+        <item>200</item>
+        <item>400</item>
+        <item>600</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>-1</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<!--
+These strings are the keys needed for saved preferences
+-->
+<resources>
+    <string name="pref_file_name">save_prefs</string>
+    <string name="pref_crime_display">display_crimes</string>
+    <string name="pref_crime_date_range">date_range</string>
+    <string name="pref_crime_color">route_color</string>
+    <string name="pref_crime_search_radius">crime_radius</string>
+    <string name="pref_fav_records">fav_addresses</string>
+    <string name="pref_search_hisAddress">search_historyAddress</string>
+    <string name="pref_favSearchHome_Address">Address</string>
+    <string name="pref_HomeSearch_search">search</string>
+</resources>

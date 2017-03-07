@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/back"
+        android:onClick="backToMapClick"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/search_address"
+        android:layout_width="match_parent"
+        android:layout_alignBottom="@+id/back"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/history1"
+        android:layout_below="@+id/back"
+        android:layout_alignParentStart="true"
+        android:onClick="historySearch1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/history2"
+        android:layout_below="@+id/history1"
+        android:layout_alignParentStart="true"
+        android:onClick="historySearch2"/>
+
+    <Button
+        android:text="Go"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/go"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="goClick"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/history2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/history3"
+        android:onClick="historySearch3"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spinner2"
+        android:layout_marginBottom="68dp"
+        android:layout_below="@+id/history3"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spinner3"
+        android:layout_below="@+id/spinner2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save1"
+        android:layout_above="@+id/history2"
+        android:layout_alignParentEnd="true"
+        android:onClick="save1"/>
+
+    <Button
+        android:text="save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/history3"
+        android:layout_alignStart="@+id/save1"
+        android:id="@+id/save2"
+        android:onClick="save2"/>
+
+    <Button
+        android:text="save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner2"
+        android:layout_alignStart="@+id/save2"
+        android:id="@+id/save3"
+        android:onClick="save3"/>
+
+</RelativeLayout>
